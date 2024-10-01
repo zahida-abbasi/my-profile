@@ -1,0 +1,46 @@
+.profileContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: #FEF9C3;
+  }
+  
+  .introStyle {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageStyle {
+    border: #854D0E solid 8px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  /* for button styles */
+  .customButton {
+    background-color: #FEF9C3;
+    color: #050505;
+    border: 2px solid #000000;
+    margin-top: 60px;
+    margin-left: 250px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .customButton:hover {
+    background-color: #854D0E;
+    color: #FFFFFF;
+  }
+  
